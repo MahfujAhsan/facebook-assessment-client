@@ -13,10 +13,12 @@ const Home = () => {
     }
 
     return (
-        <section className='fb__card'>
-            {
-                data.map(content => <Content key={content._id} content={content} refetch={refetch}/>)
-            }
+        <section className='card__container'>
+            <div className='fb__card'>
+                {
+                    data.map(content => <Content key={content._id} content={content} refetch={refetch} />)
+                }
+            </div>
         </section>
     );
 };

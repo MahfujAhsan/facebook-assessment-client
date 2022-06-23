@@ -35,7 +35,7 @@ const Content = ({ content, refetch }) => {
             </div>
             <div className='images__area'>
                 <img style={{ width: '100%' }} src={coverImg} alt="" />
-                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <div className='image__quote'>
                     <img width={150} height={150} style={{ borderRadius: "50%", border: '10px solid #fff', marginTop: "-30px", marginLeft: '10px' }} src={avatarImage} alt="" />
                     <p style={{ display: 'flex', flexDirection: 'column' }}>{quotes} <span style={{ color: '#DD5E50', fontWeight: '700' }}> - {director}</span></p>
                 </div>

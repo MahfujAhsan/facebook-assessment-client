@@ -1,8 +1,12 @@
+.head__container {
+    width: 100%;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     height: 70px;
-    width: 550px;
+    max-width: 550px;
     margin: auto;
     position: sticky;
     background-color: #fff;
