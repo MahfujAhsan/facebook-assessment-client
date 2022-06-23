@@ -1,0 +1,65 @@
+.card__content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    margin-bottom: 30px;
+}
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+ p{
+    margin: 0;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.head__paragraph > p:first-child {
+    color: #000;
+    font-weight: bold;
+}
+
+.head__paragraph > p:last-child {
+    color: gray;
+}
+.check__icon {
+    color: #2e81f4;
+}
+.horizontal__dots {
+    cursor: pointer;
+    font-size: 25px;
+}
+.quotes_area {
+    padding: 0 35px;
+    border-bottom: 1px solid gray;
+}
+.images__area  {
+    padding: 0 35px;
+}
+.comments__share > a {
+    color: gray;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-top: 1px solid #A9A9A9;
+}
+.card__footer > div {
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+.card__footer > div:hover {
+    background-color: #A9A9A9;
+    padding: 5px 20px;
+}
+
