@@ -6,7 +6,7 @@ import Content from './Content';
 
 const Home = () => {
 
-    const { data, isLoading, refetch } = useQuery('sunilJiData', () => fetch('http://localhost:5000/content').then(res => res.json()));
+    const { data, isLoading, refetch } = useQuery('sunilJiData', () => fetch('https://obscure-island-00998.herokuapp.com/content').then(res => res.json()));
 
     if (isLoading) {
         return <Spinner />
